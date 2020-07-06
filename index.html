@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ProjectOne</title>
+<!--jquery tag-->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+  integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+  crossorigin="anonymous">
+  </script>
+<!--fontawesome tag-->
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+<!--bootstrap.css tag-->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+  integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+<!--bootstrap.min.js tag-->
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+  integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+  crossorigin="anonymous">
+  </script>
+<!--popper.js tag-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+  integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+  crossorigin="anonymous">
+  </script>
+<!--css tag-->
+  <link type="text/css" rel="stylesheet" href="projectOne.css">
+<!--js tags-->
+  <script src="projectOne.js"></script>
+  <script>
+    $(function(){
+        $("h2").text("Welcome to JQuery");
+        $("#msg").text("This is displayed using ID");
+                $(".effects").text("This is displayed using Class Name");
+
+    })
+</script>
+
+</head>
+<body>
+  <div class="row" >
+    
+    
+    <div class="col-sm-2" style="background-color: #F5F5F5;" id="secret">
+      <span class="fas fa-bolt" id="bolt"></span><span id="trending"><b>TRENDING</b></span>
+      
+      
+    </div>
+    <div class="col-sm-5" id="secret"style="background-color: #F5F5F5;">
+      <span style="color:#8C8C8C">|</span>
+      <span class="moving" >The secret of moving this ancient spinex screen</span>
+    </div>
+    <div class="col-sm-4" style="background-color: #F5F5F5;" id="calender">
+      
+      <span class="far fa-calendar-check"></span>
+      <script>
+        document.write('<span id="time">'+n+'</span>');
+      </script>
+      
+    </div>
+  
+  </div>  
+  <div class="row">
+    <div class="col-lg-4" id="logocol">
+      <img src="asserts/logo-dark.png" id="logo">
+    </div>
+    <div class="col-lg-8 d-none d-xl-block" id="banner-col">
+      <img src="asserts/header-banner.jpg" id="banner">
+    </div>
+  </div>
+  <div class="sticky-top" id="navigation">
+    <nav class="navbar navbar-expand-lg">
+      <ul class=navbar-nav>
+        
+        <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" data-toggle="dropdown" id="navbar-drop" href="#"><b>HOME</b></a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="#">HOME1</a>
+            <a class="dropdown-item" href="#">HOME2</a>
+            <a class="dropdown-item" href="#">HOME3</a>
+            <a class="dropdown-item" href="#">HOME4</a>
+            <a class="dropdown-item" href="#">HOME5</a>
+            <a class="dropdown-item" href="#">HOME6</a>
+            <a class="dropdown-item" href="#">HOME7</a>
+            <a class="dropdown-item" href="#">HOME8(BOX LAYOUT)</a>
+            <a class="dropdown-item" href="#">HOME9</a>
+            <a class="dropdown-item" href="#">HOME10</a>
+            <a class="dropdown-item" href="#">HOME ADS</a>
+          </div>
+        </li>
+        <li class="nav-item"><a class="nav-link" href="#"><b>TECHNOLOGY</b></a></li>
+        <li class="nav-item"><a class="nav-link" href="#"><b>LIFESTYLE</b></a></li>
+        <li class="nav-item"><a class="nav-link" href="#"><b>TRAVEL</b></a></li>
+        <li class="nav-item"><a class="nav-link" href="#"><b>VIDEO</b></a></li>
+        <li class="nav-item"><a class="nav-link" href="#"><b>FEATURES</b></a></li>
+      </ul>
+    </nav>
+  </div>
+  <h2></h2>
+  <p id="msg"></p>
+        <div class="effects">
+        </div>  
+</body>
+</html>

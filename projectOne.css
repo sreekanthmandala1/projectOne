@@ -1,0 +1,76 @@
+#trend,#secret,#calender {
+  height: 40px;
+  line-height: 35px; 
+  
+}
+#bolt,#trending,#moving,#time {
+  display: inline-block;
+  vertical-align: middle;
+  line-height: normal;
+  font-size:12px;
+  
+}
+#bolt{
+  margin-left:100px;
+  font-size:10px;
+  
+  color:red;
+}
+#trending{
+  font-family: 'Roboto', sans-serif;
+  font-weight:2px;
+  color:#222222;
+  
+}
+#moving,#time{
+  font-family: 'Roboto', sans-serif;
+  color:#777777;
+  
+}
+
+.fa-calendar-check{
+  margin-left:200px;
+  color:#8C8C8C;
+  display: inline-block;
+  vertical-align: middle;
+  line-height: normal;
+  font-size:12px;
+  color:#777777;
+}
+#logocol,#bannercol{
+  height:20%;
+  
+}
+#logo{
+  display: inline-block;
+  vertical-align: middle;
+  width:220px;
+  margin-left:120px;
+  margin-top:5%;
+}
+#banner{
+  
+  margin-top:5%;
+  width:100%;
+}
+
+#navigation{
+  height:70px;
+  line-height:35px;
+  background-color:#F9496A;
+  background-image:linear-gradient(to right, #F9496A , #FD7842);
+}
+.nav-link{
+  color:white;
+  margin-left:30px;
+}
+#navbar-drop{
+  margin-left:120px;
+  
+}
+.nav-link:hover{
+  background-color: #FA6075;
+  color:white;
+  box-sizing:border-box;
+}
+
